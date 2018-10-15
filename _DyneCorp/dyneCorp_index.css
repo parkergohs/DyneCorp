@@ -1,0 +1,152 @@
+/*
+Project: Virtual University
+
+Filename: virtualUniversity_index.css
+
+
+Notes:
+
+
+
+To Do:
+
+*/
+
+
+body
+{
+ background-color: rgba(0, 0, 0, 1);
+ //background-image: url("rsc/spaceBkgd.jpg"); 
+ color: white;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+h1, h2, h3, h4, h5, h6
+{
+ text-align: center;
+ clear: both;
+}
+
+button
+{
+ background-color: rgba(100, 100, 130, 1);
+ color: rgba(250, 250, 250, 1);
+ border-color: rgba(189, 200, 220, 1);
+ border-radius: 4px; 
+}
+
+button:hover
+{
+ //background-color: rgba(100, 100, 130, 1);
+ color: rgba(200, 200, 200, 1);
+ border-color: rgba(121, 130, 240, 1);
+}
+
+p
+{
+	
+}
+
+a
+{
+ text-decoration: none;
+ color: white; 
+}
+
+a:hover
+{
+ color: rgba(200, 200, 200, 1);
+}
+
+ul
+{
+ list-style: none;
+}
+
+li
+{
+ /*display: inline-block;	*/
+}
+
+#siteHeaderBar
+{
+ background-color: rgba(0, 0, 0, 1);	
+ color: white;
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 7%;
+ width: 100%;
+}
+
+#siteHeaderBar li
+{
+ display: inline-block;	
+ margin-right: 30px;
+}
+
+#searchBar
+{
+ position: absolute;
+ top: 0;
+ right: 0;
+}
+#pageHeaderBar
+{
+ background-color: rgba(20, 20, 20, 1);	
+	
+ position: absolute;
+ top: 7%;
+ left: 0;
+ height: 7%;
+ width: 100%;
+}
+
+#pageHeaderBar li
+{
+ display: inline-block;	
+ margin-right: 15px;
+}
+
+
+#pageNavBar
+{
+ position: absolute;
+ top: 7%;
+ left: 0;
+ height: 14%;
+ width: 98%;	
+}
+
+#pageNavItemList li
+{
+ display: inline-block;
+}
+
+#mainArea
+{
+ background-color: rgba(30, 29, 30, 1);	
+ background-image: url("rsc/spaceBkgd.jpg");
+ background-size: cover;
+ position: absolute;
+ top:24%;
+ left: 0;
+ height: 75%;
+ width: 98%;	
+ overflow-y: scroll;
+ //overflow-x: hidden;
+ padding: 10px;
+}
+
+
+
+
+@media (max-width: 700px)
+{
+ #mainArea
+ {
+  background-image: url("virtualUniversity_BkgdTall.png"); 
+ }
+}
